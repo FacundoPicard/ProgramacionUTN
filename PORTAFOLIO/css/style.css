@@ -1,4 +1,8 @@
 /*font-family: 'Sono', sans-serif;´*/
+#body{
+    background-color:rgb(255, 255, 255)  ;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -36,3 +40,7 @@ footer{
     text-align: center;
 }
 
+#logoshab{
+    width: 100px;
+    filter: drop-shadow(0 2px 5px rgba(66, 66, 66, 0.5));
+}
