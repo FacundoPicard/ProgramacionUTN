@@ -1,0 +1,38 @@
+/*font-family: 'Sono', sans-serif;´*/
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-section{
+    scroll-margin-top: 55px;
+}
+
+.imgbg{
+    background: url(/img/imgbg1.jpg) no-repeat;
+    background-size: cover;
+    height: 75vh;
+    color: white;
+}
+
+.Nombre{
+    font-family: 'Sono', sans-serif;
+    background-color: rgba(117, 117, 117, 0.438);
+    backdrop-filter: blur(20px);
+    font-size: xx-large;
+    text-align: center;
+    /* border: black solid; */
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+footer{
+    font-family: 'Sono', sans-serif;
+    background-color: #80808048 ;
+    color: whitesmoke;
+}
+
+.habilidades{
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+}
+
