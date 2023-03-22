@@ -1,6 +1,9 @@
 /*font-family: 'Sono', sans-serif;´*/
 #body{
-    background-color:rgb(255, 255, 255)  ;
+    background-color: #122233;
+    position: relative;
+    padding-bottom: 90px;
+    min-height: 100vh;
 }
 
 html {
@@ -14,12 +17,22 @@ html {
 .imgbg{
     background: url(/img/imgbg1.jpg) no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 100vh;
     color: white;
 }
 
-.Nombre{
+.fuenteinicio{
     font-family: 'Sono', sans-serif;
+}
+
+.fuente{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+.Nombre{
+    
     background-color: rgba(117, 117, 117, 0.438);
     backdrop-filter: blur(20px);
     font-size: xx-large;
@@ -31,8 +44,12 @@ html {
 
 footer{
     font-family: 'Sono', sans-serif;
-    background-color: #80808048 ;
+    background-color: #12597d ;
     color: whitesmoke;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .habilidades{
@@ -42,5 +59,9 @@ footer{
 
 #logoshab{
     width: 100px;
-    filter: drop-shadow(0 2px 5px rgba(66, 66, 66, 0.5));
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+.nombrelogo{
+    font-size: 30px;
 }
