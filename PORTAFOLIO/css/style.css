@@ -13,7 +13,7 @@ html {
 .scroll-section{
     scroll-margin-top: 55px;
 }
-
+/* TODO LO DE INICIO */
 .imgbg{
     background: url(/img/imgbg1.jpg) no-repeat;
     background-size: cover;
@@ -25,23 +25,27 @@ html {
     font-family: 'Sono', sans-serif;
 }
 
+.Nombre{
+    
+    background-color: rgba(117, 117, 117, 0.438);
+    backdrop-filter: blur(20px);
+    font-size: 55px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+/* FIN TODO LO DE INICIO */
+
+/* FUENTE PARA EL SITIO */
 .fuente{
     font-family: 'Montserrat', sans-serif;
     color: white;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
+/* FIN FUENTE PARA EL SITIO */
 
-.Nombre{
-    
-    background-color: rgba(117, 117, 117, 0.438);
-    backdrop-filter: blur(20px);
-    font-size: xx-large;
-    text-align: center;
-    /* border: black solid; */
-    padding: 10px 10px;
-    border-radius: 10px;
-}
 
+/* PIE DE PAGINA */
 footer{
     font-family: 'Sono', sans-serif;
     background-color: #12597d ;
@@ -51,17 +55,23 @@ footer{
     width: 100%;
     bottom: 0;
 }
+/* FIN PIE DE PAGINA */
 
+/* SECCION HABILIDADES */
 .habilidades{
     font-family: 'Sono', sans-serif;
     text-align: center;
+
 }
 
 #logoshab{
     width: 100px;
+    height: 90px;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+    margin: 30px;
 }
 
 .nombrelogo{
     font-size: 30px;
 }
+/* FIN SECCION HABILIDADES */
