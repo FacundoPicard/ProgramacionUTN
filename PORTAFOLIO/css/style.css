@@ -1,7 +1,5 @@
 /*font-family: 'Sono', sans-serif;´*/
 #body{
-    background-color: #122233;
-    position: relative;
     padding-bottom: 90px;
     min-height: 100vh;
 }
@@ -11,28 +9,29 @@ html {
 }
 
 .scroll-section{
-    scroll-margin-top: 55px;
+    scroll-margin-top: 90px;
 }
 /* TODO LO DE INICIO */
-.imgbg{
-    background: url(/img/imgbg1.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    color: white;
+#inicio{
+    height:100vh;
+    padding-top: 11%;
+    /* padding-bottom: 40; */
+    padding-left: 10%;
+    background-color: #098cae;
+    
 }
 
-.fuenteinicio{
-    font-family: 'Sono', sans-serif;
+#img{
+    width: 30vw;
+    min-width: 300px;
 }
+
 
 .Nombre{
-    
-    background-color: rgba(117, 117, 117, 0.438);
-    backdrop-filter: blur(20px);
-    font-size: 55px;
-    text-align: center;
-    padding: 10px 10px;
+    padding: 30px 10px;
     border-radius: 10px;
+    font-family: 'Sono', sans-serif;
+    
 }
 /* FIN TODO LO DE INICIO */
 
@@ -45,23 +44,22 @@ html {
 /* FIN FUENTE PARA EL SITIO */
 
 
-/* PIE DE PAGINA */
-footer{
-    font-family: 'Sono', sans-serif;
-    background-color: #12597d ;
-    color: whitesmoke;
-    padding: 5px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-/* FIN PIE DE PAGINA */
-
 /* SECCION HABILIDADES */
+#contenedor-habilidades{
+    height:100vh;
+    padding-top: 56px;
+    background-color: #122233;
+    
+    
+}
+
+.paddinglogos{
+    padding: 40px 40px;
+}
+
 .habilidades{
     font-family: 'Sono', sans-serif;
     text-align: center;
-
 }
 
 #logoshab{
@@ -74,4 +72,26 @@ footer{
 .nombrelogo{
     font-size: 30px;
 }
+
 /* FIN SECCION HABILIDADES */
+
+/* SOBRE MI */
+
+#contenedor-sobremi{
+    padding-top: 56px;
+    background-color: #098cae;
+    height:100vh;
+    border: solid green 10px
+}
+
+#img-sobremi{
+    margin-top: 80px;
+    width: 70%;
+}
+
+/* FIN SOBRE MI */
+
+
+/* PIE DE PAGINA */
+
+/* FIN PIE DE PAGINA */
