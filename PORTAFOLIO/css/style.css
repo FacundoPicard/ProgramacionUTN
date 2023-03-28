@@ -13,17 +13,20 @@ html {
 }
 /* TODO LO DE INICIO */
 #inicio{
-    height:100vh;
+    min-height: 100vh;
+    height: auto;
     padding-top: 11%;
     /* padding-bottom: 40; */
     padding-left: 10%;
     background-color: #098cae;
     
+    
 }
 
-#img{
+#imginicio{
     width: 30vw;
     min-width: 300px;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -31,6 +34,7 @@ html {
     padding: 30px 10px;
     border-radius: 10px;
     font-family: 'Sono', sans-serif;
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.5));
     
 }
 /* FIN TODO LO DE INICIO */
@@ -46,9 +50,10 @@ html {
 
 /* SECCION HABILIDADES */
 #contenedor-habilidades{
-    height:100vh;
+    min-height: 100vh;
+    height: auto;
     padding-top: 56px;
-    background-color: #122233;
+    background-color: #224569;
     
     
 }
@@ -78,18 +83,65 @@ html {
 /* SOBRE MI */
 
 #contenedor-sobremi{
-    padding-top: 56px;
-    background-color: #098cae;
-    height:100vh;
-    border: solid green 10px
+    padding-top: 90px;
+    background-color: #121f30;
+    min-height: 100vh;
+    height: auto;
 }
 
 #img-sobremi{
     margin-top: 80px;
     width: 70%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 
 /* FIN SOBRE MI */
+
+/* SECCION FORMACION */
+#contenedor-formacion{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 56px;
+    background-color: #121f30;
+    padding-bottom: 15px;
+}
+
+.tamañocards{
+    padding: 120px;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+#imgcard1{
+    width: 60%;
+    padding: 20px;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+#imgcard2{
+    width: 93%;
+    padding: 12px;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+
+/* FIN SECCION FORMACION  */
+
+/* SECCION CONTACTO */
+
+#contenedor-contacto{
+    background-color: #224569;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 100px;
+    /* padding-bottom: 15px; */
+}
+
+#form-contacto{
+    background-color: #121f30;
+    padding: 20px;
+    border-radius: 25px;
+}
+/* FIN SECCION CONTACTO */
+
 
 
 /* PIE DE PAGINA */
