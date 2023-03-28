@@ -107,18 +107,18 @@ html {
 }
 
 .tamañocards{
-    padding: 120px;
+    padding: 8%;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 
 #imgcard1{
     width: 60%;
-    padding: 20px;
+    padding: 3%;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 #imgcard2{
     width: 93%;
-    padding: 12px;
+    padding: 2%;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 
@@ -137,7 +137,7 @@ html {
 
 #form-contacto{
     background-color: #121f30;
-    padding: 20px;
+    padding: 2%;
     border-radius: 25px;
 }
 /* FIN SECCION CONTACTO */
