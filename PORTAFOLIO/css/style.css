@@ -2,6 +2,8 @@
 #body{
     padding-bottom: 90px;
     min-height: 100vh;
+    background: linear-gradient(rgba(5,7,12,0.8),rgba(5,7,12,0.8)), url(/img/fondohabilidades.jpg) no-repeat center center fixed;
+    background-size:cover ;
 }
 
 html {
@@ -18,7 +20,8 @@ html {
     padding-top: 11%;
     /* padding-bottom: 40; */
     padding-left: 10%;
-    background-color: #098cae;
+    /* background-color: #098cae; */
+    background-color: #12294493;
     
     
 }
@@ -27,6 +30,7 @@ html {
     width: 30vw;
     min-width: 300px;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+    
 }
 
 
@@ -53,10 +57,12 @@ html {
     min-height: 100vh;
     height: auto;
     padding-top: 56px;
-    background-color: #224569;
+    background-color: #12294493;
     
-    
+
+
 }
+
 
 .paddinglogos{
     padding: 40px 40px;
@@ -84,7 +90,7 @@ html {
 
 #contenedor-sobremi{
     padding-top: 90px;
-    background-color: #121f30;
+    background-color: #121f307e;
     min-height: 100vh;
     height: auto;
 }
@@ -102,7 +108,7 @@ html {
     min-height: 100vh;
     height: auto;
     padding-top: 56px;
-    background-color: #121f30;
+    background-color: #121f307e;
     padding-bottom: 15px;
 }
 
@@ -128,7 +134,7 @@ html {
 /* SECCION CONTACTO */
 
 #contenedor-contacto{
-    background-color: #224569;
+    background-color: #12294493;
     min-height: 100vh;
     height: auto;
     padding-top: 100px;
@@ -138,7 +144,11 @@ html {
 #form-contacto{
     background-color: #121f30;
     padding: 2%;
-    border-radius: 25px;
+    border-radius: 3%;
+}
+
+.contenedor-form{
+    padding: 1%;
 }
 /* FIN SECCION CONTACTO */
 
