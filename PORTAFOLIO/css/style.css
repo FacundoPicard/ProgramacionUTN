@@ -1,6 +1,5 @@
 /*font-family: 'Sono', sans-serif;´*/
 #body{
-    padding-bottom: 90px;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.9),rgba(5,7,12,0.9));
     background-color: #0f2238;
@@ -27,15 +26,23 @@ html {
 }
 
 #imginicio{
-    width: 30vw;
+    width: 40vw;
     min-width: 300px;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+    padding-bottom: 25px;
     
+}
+
+#logosinicio{
+    width: 2vw;
+    min-width: 25px ;
+    padding-top:1% ;
+    margin-left: 20px;
 }
 
 
 .Nombre{
-    padding: 30px 10px;
+    padding-top: 30px;
     border-radius: 10px;
     font-family: 'Sono', sans-serif;
     filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.5));
@@ -147,6 +154,7 @@ html {
     border-radius: 3%;
 }
 
+
 .contenedor-form{
     padding: 1%;
 }
@@ -155,5 +163,15 @@ html {
 
 
 /* PIE DE PAGINA */
+
+#footer{
+    background-color: #121f30;
+}
+
+#logosfooter{
+    width: 2vw;
+    min-width: 25px ;
+    padding-top:1% ;
+}
 
 /* FIN PIE DE PAGINA */
