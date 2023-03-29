@@ -104,7 +104,7 @@ html {
 
 #img-sobremi{
     margin-top: 80px;
-    width: 70%;
+    width: 60%;
     filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 
@@ -151,7 +151,7 @@ html {
 #form-contacto{
     background-color: #121f30;
     padding: 2%;
-    border-radius: 3%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
 }
 
 
