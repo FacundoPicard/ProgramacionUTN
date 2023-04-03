@@ -106,6 +106,9 @@ html {
 /* FIN SECCION HABILIDADES */
 
 /* SOBRE MI */
+#sobre-mi{
+    padding-left: 8%;
+}
 
 #contenedor-sobremi{
     padding-top: 90px;
