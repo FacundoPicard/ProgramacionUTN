@@ -33,7 +33,9 @@ html {
     padding-left: 10%;
     /* background-color: #098cae; */
     background-color: #122944d5;
-    
+}
+
+#tituloinicio{
     
 }
 
@@ -206,7 +208,6 @@ html {
   .console-container {
    
     font-family: 'Sono', sans-serif;
-    font-size:280%;
     text-align:left;
     /* width: 100%; */
     /* display:block;
