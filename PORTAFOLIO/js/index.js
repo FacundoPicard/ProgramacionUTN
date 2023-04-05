@@ -32,7 +32,7 @@ function Salirmouse(event){
 
 
 
-  consoleText(['Hola! Soy Facundo Picard. Progamador Web junior.     Front End Developer'], 'text',['white']);
+  consoleText(['Hola! Soy Facundo Picard.  Progamador Web junior.  Front End Developer'], 'text',['white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
