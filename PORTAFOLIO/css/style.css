@@ -1,0 +1,225 @@
+/*font-family: 'Sono', sans-serif;´*/
+#body{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.9),rgba(5,7,12,0.9));
+    background-color: #0f2238;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23864ae7' fill-opacity='0.59'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #1b4f8a;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #153b66;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-section{
+    scroll-margin-top: 90px;
+}
+/* TODO LO DE INICIO */
+#inicio{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 11%;
+    /* padding-bottom: 40; */
+    padding-left: 10%;
+    /* background-color: #098cae; */
+    background-color: #122944d5;
+}
+
+
+
+#imginicio{
+    width: 40vw;
+    min-width: 300px;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+    padding-bottom: 25px;
+    
+}
+
+#logosinicio{
+    width: 2vw;
+    min-width: 25px ;
+    padding-top:1% ;
+    margin-left: 20px;
+}
+
+
+.Nombre{
+    padding-top: 30px;
+    border-radius: 10px;
+    font-family: 'Sono', sans-serif;
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.5));
+    
+}
+/* FIN TODO LO DE INICIO */
+
+/* FUENTE PARA EL SITIO */
+.fuente{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+/* FIN FUENTE PARA EL SITIO */
+
+
+/* SECCION HABILIDADES */
+#contenedor-habilidades{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 56px;
+    background-color: #122944d5;
+    
+
+
+}
+
+
+.paddinglogos{
+    padding: 40px 40px;
+}
+
+.habilidades{
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+}
+
+#logoshab{
+    width: 100px;
+    height: 90px;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+    margin: 30px;
+}
+
+.nombrelogo{
+    font-size: 30px;
+}
+
+/* FIN SECCION HABILIDADES */
+
+/* SOBRE MI */
+#sobre-mi{
+    padding-left: 8%;
+}
+
+#contenedor-sobremi{
+    padding-top: 90px;
+    background-color: #121f30d5;
+    min-height: 100vh;
+    height: auto;
+}
+
+#img-sobremi{
+    margin-top: 80px;
+    width: 60%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+/* FIN SOBRE MI */
+
+/* SECCION FORMACION */
+#contenedor-formacion{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 56px;
+    background-color: #121f30d5;
+    padding-bottom: 15px;
+}
+
+.tamañocards{
+    padding: 8%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+#imgcard1{
+    width: 60%;
+    padding: 3%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+#imgcard2{
+    width: 93%;
+    padding: 2%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+
+/* FIN SECCION FORMACION  */
+
+/* SECCION CONTACTO */
+
+#contenedor-contacto{
+    background-color: #122944d5;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 100px;
+    /* padding-bottom: 15px; */
+}
+
+#form-contacto{
+    background-color: #121f30;
+    padding: 2%;
+    filter: drop-shadow(0 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+
+.contenedor-form{
+    padding: 1%;
+}
+/* FIN SECCION CONTACTO */
+
+
+
+/* PIE DE PAGINA */
+
+#footer{
+    background-color: #121f30;
+}
+
+#logosfooter{
+    width: 2vw;
+    min-width: 25px ;
+    padding-top:1% ;
+}
+
+/* FIN PIE DE PAGINA */
+
+
+
+
+
+
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Khula:700); */
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+   
+    font-family: 'Sono', sans-serif;
+    text-align:left;
+    /* width: 100%; */
+    /* display:block;
+    position:absolute; */
+    color:#FC6119;
+    /* top:6%;
+    bottom:0;
+    right:42%;
+    left:0;
+    margin:auto; */
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
