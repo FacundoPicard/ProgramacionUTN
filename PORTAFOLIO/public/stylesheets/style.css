@@ -191,7 +191,10 @@ html {
 
 /* FIN PIE DE PAGINA */
 
-
+/* contenedor login */
+#contenedor-login{
+    background-color: #0f2238a6;
+}
 
 
 
