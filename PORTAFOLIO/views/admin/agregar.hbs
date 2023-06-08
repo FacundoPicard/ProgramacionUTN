@@ -1,0 +1,20 @@
+<div class="container p-5 m-5 fuente mx-auto">
+
+        <div id="contenedor-agregar" class="col-6 mx-auto text-center p-4">
+            <form action="/admin/novedades/agregar" method="post">
+            <h3>Agregar una nueva habilidad</h3>
+                <div>
+                    <input type="text" class="form-control" placeholder="Inserte habilidad" name="titulo">
+                </div>
+                <div class="mt-3">
+                    <input type="text" class="form-control" placeholder="Inserte nivel. Ej: junior,semi-senior,senior" name="subtitulo">
+                </div>
+                <div class="d-grid mt-4">
+                    <button type="submit" class="btn btn-primary">Agregar</button>
+                </div>
+            </form>
+            {{#if error}}
+            <p class="fuente" >{{message}}</p>
+            {{/if}}
+        </div>
+    </div>
