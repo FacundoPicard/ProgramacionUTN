@@ -7,8 +7,6 @@
                         class="fasfa-sign-out-alt"></i></a>
             </p>
         </div>
-        {{!--
-    </div> --}}
 </div>
 
 <div class="row text-center">
@@ -36,7 +34,8 @@
     <tr>
       <th scope="row">{{id}}</th>
       <td>{{titulo}}</td>
-      <td class=""><a href="" class="btn btn-secondary"><i class="fasfa-pencil-alt"></i>Modificar</a><a href="/admin/novedades/eliminar/{{id}}" class="btn btn-danger ms-2"><i class="fasfa-trash"></i>Borrar</a>
+      <td class=""><a href="/admin/novedades/modificar/{{id}}" class="btn btn-secondary"><i class="fasfa-pencil-alt"></i>Modificar</a>
+      <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-danger ms-2"><i class="fasfa-trash"></i>Borrar</a>
       </td>
     </tr>
     {{/each}}
