@@ -26,7 +26,7 @@ var mensaje = req.body.mensaje;
 var obj = {
   to: "facundopicard09@gmail.com",
   subject: "Contacto desde el portfolio",
-  html: nombre + " " + " se contacto a traves del portfolio y quiere una respuesta a este correo" + " " + email + ". Ademas dejo el siguiente mensaje" + " " + mensaje
+  html: nombre + " " + " se contacto a traves del portfolio y quiere una respuesta a este correo" + " " + email + ". Ademas dejo el siguiente mensaje: " + " " + mensaje
 }
 
 var transporter = nodemailer.createTransport ({
