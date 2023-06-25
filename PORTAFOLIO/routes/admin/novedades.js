@@ -46,4 +46,36 @@ router.get('/', async function(req, res, next) {
   });
 
 
+  router.get("/modificar/:id", async (req, res, next) => {
+    var id = req.params.id;
+    
+    var novedad = await novedadesModel.getNovedadById(id);
+    res.render("admin/modificar", {
+      layout: "admin/layout",
+      novedad
+    });
+  });
+
+
+  router.post("/modificar", async (req, res, next) => {
+    try {
+      // console.log(req.body.id);
+      var obj = {
+        titulo: req.body.titulo
+      }
+
+      // console.log(obj)
+      await novedadesModel.modificarNovedadById(obj, req.body.id);
+      res.redirect("/admin/novedades");
+    } catch (error) {
+      console.log(error)
+      res.render("admin/modificar", {
+        layout: "admin/layout",
+        error: true,
+        message: "No se modifico la habilidad"
+      })
+    }
+  })
+
+
   module.exports = router;

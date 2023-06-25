@@ -1,0 +1,18 @@
+<div class="container p-5 m-5 fuente mx-auto">
+
+        <div id="contenedor-agregar" class="col-6 mx-auto text-center p-4">
+            <form action="/admin/novedades/modificar" method="post">
+            <h3>Modificar habilidad</h3>
+            <input type="hidden" value="{{novedad.id}}" name="id" >
+                <div>
+                    <input type="text" class="form-control" placeholder="" name="titulo" value="{{novedad.titulo}}" >
+                </div>
+                <div class="d-grid mt-4">
+                    <button type="submit" class="btn btn-primary">Modificar</button>
+                </div>
+            </form>
+            {{#if error}}
+            <p class="fuente" >{{message}}</p>
+            {{/if}}
+        </div>
+    </div>
